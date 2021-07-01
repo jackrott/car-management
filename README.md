@@ -71,3 +71,18 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Dependencies required
+
+* Se añade dependencia para validación de dtos "class-validator"
+```bash
+npm install class-validator --save
+```
+* Se añade dependencia para crear id dinamicos (UUID)
+```bash
+npm install uuid
+```
+* Se añade dependencia para postgresql y typeorm
+```bash
+npm install --save @nestjs/typeorm typeorm pg
+```
