@@ -73,16 +73,25 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 ## Dependencies required
+* Manejo de variables de entorno
+```bash
+$ npm i --save @nestjs/config
+```
 
-* Se añade dependencia para validación de dtos "class-validator"
+* Validación de dtos "class-validator"
 ```bash
-npm install class-validator --save
+$ npm install class-validator --save
 ```
-* Se añade dependencia para crear id dinamicos (UUID)
+* ID dinamicos (UUID)
 ```bash
-npm install uuid
+$ npm install uuid
 ```
-* Se añade dependencia para postgresql y typeorm
+* Postgresql y typeorm
 ```bash
-npm install --save @nestjs/typeorm typeorm pg
+$ npm install --save @nestjs/typeorm typeorm pg
+```
+* Herramienta para validación de datos javascript
+```bash
+$ npm install --save joi
+$ npm install --save-dev @types/joi
 ```
