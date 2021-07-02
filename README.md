@@ -94,4 +94,5 @@ $ npm install --save @nestjs/typeorm typeorm pg
 ```bash
 $ npm install --save joi
 $ npm install --save-dev @types/joi
+$ npm install --save @hapi/joi   
 ```
